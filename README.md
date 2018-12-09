@@ -63,7 +63,7 @@ dwmが軽くてよい。
  
  `ip link set <インタフェース名> [up/down]`
  
- `netctl enable <常用I-FIのプロフィール>`
+ `netctl enable <常用WI-FIのプロフィール>`
  
  `sudo wifi-menu`
  
