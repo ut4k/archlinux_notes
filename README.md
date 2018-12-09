@@ -59,4 +59,12 @@ dwmが軽くてよい。
  - f : force。上書き。
  - i : install。ビルドが成功したあとにインストール。
  
+ ## ネットワーク
  
+ `ip link set <インタフェース名> [up/down]`
+ 
+ `netctl enable <常用I-FIのプロフィール>`
+ 
+ `sudo wifi-menu`
+ 
+ - `wifi-menu`は`dialog`と、（たしか`wpa_supplicant`）に依存してる
