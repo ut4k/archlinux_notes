@@ -68,3 +68,20 @@ dwmが軽くてよい。
  `sudo wifi-menu`
  
  - `wifi-menu`は`dialog`と、（たしか`wpa_supplicant`）に依存してる
+
+## パッケージマネージャ
+`pacman`で取れないパッケージで  
+`AUR`から`git clone`して`makepkg -si`なんたら...を毎回やるのはめんどくさすぎるので、  
+`AURヘルパー`をつかう。  
+いくつか種類があって、 `yaourt`、`pacaur`、などがあるが  
+`yay`が最近の主流で使いやすいらしいので`yay`をつかう。
+
+インストレーションは超簡単で
+```
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+だけ。いぇい。  
+
+あとは`yay -S packagename`等で使うだけ。
