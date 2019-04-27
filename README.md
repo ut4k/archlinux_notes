@@ -53,11 +53,13 @@ archlinuxの自分用メモ。ASUS e200ha用。
 dwmが軽くてよい。  
 設定を変えたいときは`/download/dwm/src/dwm-6.x/config.h`(一番最下層のconfig.h）をいじってリコンパイルする。  
 ここのconfig.h以外をいじっても効果なしみたい。  
-再コンパイルは`mkpkg -efi`でやるとエラーなくいける。  
+再コンパイルは`makepkg -efi`でやるとエラーなくいける。  
 
  - e : noextract。ソースファイルを展開しない。
  - f : force。上書き。
  - i : install。ビルドが成功したあとにインストール。
+
+`PKGBUILD`ファイルがおいてある`dwn`フォルダで行うこと。
  
  ## ネットワーク
  
